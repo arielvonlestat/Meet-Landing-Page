@@ -52,7 +52,6 @@ body {
 }
 
 .text-content {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -99,4 +98,25 @@ body {
   width: 380px;
   display: flex;
   justify-content: space-around;
+}
+
+.pagebreak-1 {
+  padding: 1rem;
+  border-radius: 100%;
+  border: 2px solid var(--Slate-600);
+  color: var(--Slate-600);
+}
+
+.pagebreak-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 300px;
+  gap: 2rem;
+  padding: 5rem;
+}
+
+.pagebreak-images img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
 }
