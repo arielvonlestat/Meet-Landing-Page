@@ -14,8 +14,8 @@
   /* Nuetral */
 
   --Slate-900: hsl(240, 21%, 20%);
-  -slate-600: hsl(240, 10%, 57%);
-  -white: hsl(0, 0%, 98%);
+  --Slate-600: hsl(240, 10%, 57%);
+  --White: hsl(0, 0%, 98%);
 }
 
 body {
@@ -52,7 +52,7 @@ body {
 }
 
 .text-content {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -62,10 +62,41 @@ body {
 }
 
 .text-content h1 {
+  text-align: center;
   font-size: 70px;
   font-weight: 900;
+  line-height: 1.2;
+}
+
+.text-content p {
+  text-align: center;
+  color: var(--Slate-600);
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .download {
-  border: 2px solid red;
+  border-radius: 80px;
+  padding: 1.2rem 2.5rem;
+  background-color: var(--Cyan-600);
+  color: var(--White);
+  font-weight: 900;
+}
+
+.download span {
+  color: var(--Cyan-300);
+}
+
+.explination {
+  border-radius: 80px;
+  padding: 1.2rem 2.5rem;
+  background-color: var(--Purple-600);
+  color: var(--White);
+  font-weight: 900;
+}
+
+.buttons {
+  width: 380px;
+  display: flex;
+  justify-content: space-around;
 }
