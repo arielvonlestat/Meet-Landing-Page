@@ -37,6 +37,8 @@ body {
   grid-template-columns: repeat(3, 1fr);
   height: 500px;
   width: 1440px;
+  margin-bottom: 6.5rem;
+  margin-top: 5rem;
 }
 
 .hero-right {
@@ -116,7 +118,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   height: 300px;
   gap: 2rem;
-  padding: 5rem;
+  padding-top: 3.5rem;
 }
 
 .pagebreak-images img {
@@ -125,7 +127,80 @@ body {
   border-radius: 10px;
 }
 
-footer {
+.pagebreak-2 {
+  grid-column: 2;
+  padding: 1rem;
+  border-radius: 100%;
+  border: 2px solid hsl(240 10% 57% / 0.15);
+  color: var(--Slate-600);
+  background-color: var(--White);
+  position: relative;
+  top: 30px;
+}
+
+.download2 {
+  border-radius: 80px;
+  padding: 1.2rem 2.5rem;
+  background-color: var(--Purple-600);
+  color: var(--White);
+  font-weight: 900;
+  grid-column: 3;
+  justify-self: start;
+  align-self: center;
+  margin-left: 3.5rem;
+}
+
+.download2 span {
+  color: var(--Purple-300);
+}
+
+.line2 {
+  border: 1px solid hsl(240 10% 57% / 0.15);
+  height: 75px;
+  position: relative;
+  top: 30px;
+}
+
+.line1 {
+  border: 1px solid hsl(240 10% 57% / 0.15);
+  height: 75px;
+}
+
+.whatisit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0 3rem 0;
+  width: 1440px;
+  gap: 1rem;
+}
+
+.whatisit h2 {
+  color: var(--Cyan-600);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 800;
+}
+
+.whatisit h3 {
+  width: 450px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.whatisit p {
+  width: 600px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--Slate-600);
+  padding-top: 1rem;
+}
+
+.ending {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr;
   height: 280px;
@@ -157,29 +232,7 @@ footer {
   font-weight: 800;
 }
 
-.pagebreak-2 {
-  grid-column: 2;
-  padding: 1rem;
-  border-radius: 100%;
-  border: 2px solid hsl(240 10% 57% / 0.15);
-  color: var(--Slate-600);
-  background-color: var(--White);
-  position: relative;
-  top: 2rem;
-}
-
-.download2 {
-  border-radius: 80px;
-  padding: 1.2rem 2.5rem;
-  background-color: var(--Purple-600);
-  color: var(--White);
-  font-weight: 900;
-  grid-column: 3;
-  justify-self: start;
-  align-self: center;
-  margin-left: 3.5rem;
-}
-
-.download2 span {
-  color: var(--Purple-300);
+.download1,
+.explination {
+  text-decoration: none;
 }
