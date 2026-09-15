@@ -227,7 +227,7 @@ body {
   max-width: 1440px;
   background-image:
     linear-gradient(hsl(192 37% 48% / 0.85), hsl(192 37% 48% / 0.85)),
-    url(assets/desktop/image-footer.jpg);
+    url(starter-code/assets/desktop/image-footer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 100%;
@@ -333,7 +333,7 @@ body {
     gap: 2rem;
     background-image:
       linear-gradient(hsl(192 37% 48% / 0.85), hsl(192 37% 48% / 0.85)),
-      url(assets/tablet/image-footer.jpg);
+      url(starter-code/assets/tablet/image-footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 50%;
